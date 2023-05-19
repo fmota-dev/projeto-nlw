@@ -50,25 +50,19 @@ aside {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  gap: 20px;
+  justify-content: space-around;
 
   border-right: 1px solid;
   border-image: linear-gradient(#727275, #2c2c31) 1;
 
-  background-image: url(assets/background.svg);
+  background-image: url(../assets/background.svg);
   background-position: top right;
   background-repeat: no-repeat;
   background-size: auto 100;
 }
 
 aside * {
-  animation: entering 1.5s ease-in-out;
-}
-
-aside p {
-  font-size: 2rem;
-  text-align: center;
+  animation: entering 1s ease-in-out;
 }
 
 aside span {
@@ -76,37 +70,14 @@ aside span {
   color: #9e9ea0;
 }
 
-h1.titulo-smim {
-  font-size: 1.2rem;
+h1 {
+  font-size: 2rem;
   margin-top: 10px;
 }
 
-p.texto-smim {
-  font-size: 0.9rem;
-  font-family: "Roboto", sans-serif;
-  line-height: 26px;
-  padding: 0px 35px
-}
-
-.ling {
-  display: flex;
-  gap: 15px;
-
-}
-
-.logo {
-  height: 7vh;
-  padding-top: 5px;
-}
-
-img.profile {
-  width: 160px;
-  height: 160px;
-  border-radius: 50%;
-
-  border: 4px solid transparent;
-  background: linear-gradient(#d39e33, #ed5636, #633bbc) padding-box,
-    linear-gradient(260deg, #d39e33, #ed5636, #633bbc) border-box;
+img.logo {
+  width: 120px;
+  height: 100px;
 }
 
 nav {
@@ -115,6 +86,31 @@ nav {
 
   overflow-y: scroll;
   animation: entering 1.5s ease-in-out;
+}
+
+.nav {
+  padding: 10px;
+  overflow-y: hidden;
+}
+
+ul.menu {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  list-style: none;
+}
+
+ul.menu-xp {
+  text-align: center;
+  list-style: none;
+  line-height: 50px;
+  color: #eaeaea;
+}
+
+li > a {
+  text-decoration: none;
+  color: #eaeaea;
+  font-weight: bold;
 }
 
 .memory {
@@ -176,7 +172,8 @@ nav {
 
   aside {
     border-right: none;
-    padding: 32px 12px;
+    padding: 50px 12px;
+    gap: 50px;
   }
 
   nav {
