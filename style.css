@@ -76,6 +76,29 @@ aside span {
   color: #9e9ea0;
 }
 
+h1.titulo-smim {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+p.texto-smim {
+  font-size: 0.9rem;
+  font-family: "Roboto", sans-serif;
+  line-height: 26px;
+  padding: 0px 35px
+}
+
+.ling {
+  display: flex;
+  gap: 15px;
+
+}
+
+.logo {
+  height: 7vh;
+  padding-top: 5px;
+}
+
 img.profile {
   width: 160px;
   height: 160px;
