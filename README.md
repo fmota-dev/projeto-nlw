@@ -1,4 +1,15 @@
-# projeto-portfolio
-Projeto de capsula do tempo criado no evento NLW organizado pela Rocketseat
+<p align="center">
+  <img src=".github/portfolio.png" alt="Demonstração do Projeto" width="100%" />
+</p>
 
-Para acessar o site <a href="https://fmota-dev.github.io/projeto-portfolio/" target="_blank">clique aqui</a>
+
+## 🖥️ Projeto 
+Esse é um projeto Web Reponsivo de um portfólio para exibir meus projetos realizados.
+
+## 🚀 Tecnologias 
+Esse projeto foi desenvolvido durante o NLW da Rocketseat com as seguintes tecnologias:
+
+- HTML
+- CSS
+- Git e Github
+
