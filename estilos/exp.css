@@ -113,6 +113,10 @@ li > a {
   font-weight: bold;
 }
 
+ul.menu a:hover {
+  color: #502ba1;
+}
+
 .memory {
   display: flex;
   flex-direction: column;
