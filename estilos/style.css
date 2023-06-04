@@ -117,7 +117,7 @@ nav {
 }
 
 .nav {
-  margin-top: 10px;
+  margin-top: -60px;
   padding: 15px;
   overflow-y: hidden;
 }
@@ -125,7 +125,7 @@ nav {
 ul.menu {
   display: flex;
   flex-direction: row;
-  gap: 20px;
+  gap: 30px;
   list-style: none;
 }
 
@@ -204,5 +204,9 @@ ul.menu a:hover {
   nav {
     overflow-y: visible;
     padding: 22px;
+  }
+
+  .nav {
+    padding-top: 10px;
   }
 }
